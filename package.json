@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "merge-img": "node canvas/merge.js",
-    "translate-img": "node canvas/merge.js"
+    "translate-img": "node canvas/merge.js",
+    "md5": "node crypto/md5.js"
   },
   "repository": {
     "type": "git",
@@ -24,5 +25,8 @@
   "homepage": "https://github.com/huafengThunder/node-script#readme",
   "volta": {
     "node": "16.15.0"
+  },
+  "dependencies": {
+    "canvas": "^2.11.2"
   }
 }

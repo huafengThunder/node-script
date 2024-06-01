@@ -1,6 +1,10 @@
 node_modules
-# dist
+
+# canvas---input/uotput
 canvas/merge 
 canvas/merge-res 
 canvas/translate
-canvas/translate-res 
+canvas/translate-res
+
+# crypto---input/uotput
+crypto/md5-sum

@@ -3,8 +3,8 @@ const fs = require('fs');
 const path = require('path');
 
 // 定义输入和输出图片文件夹路径
-const inputDirectoryPath = './translate';
-const outputDirectoryPath = './translate-res';
+const inputDirectoryPath = './canvas/translate';
+const outputDirectoryPath = './canvas/translate-res';
 
 // 创建一个新的 Canvas 实例并旋转图片
 async function rotateImages() {

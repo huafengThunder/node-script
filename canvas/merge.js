@@ -4,7 +4,7 @@ const path = require('path');
 const crypto = require('crypto');
 
 // 定义目录路径
-const directoryPath = './merge'; // 替换为您的目录路径
+const directoryPath = './canvas/merge'; // 替换为您的目录路径
 
 // 创建一个新的 Canvas 实例
 async function compositeImages() {
@@ -44,7 +44,7 @@ async function compositeImages() {
 
     // 将合成后的图片保存到文件，使用哈希值作为文件名
     const hash = crypto.createHash('md5').update(await getImageData(imagePaths)).digest('hex');
-    const out = fs.createWriteStream(path.join('./merge-res', `${hash}.jpg`));
+    const out = fs.createWriteStream(path.join('./canvas/merge-res', `${hash}.jpg`));
     const stream = canvas.createJPEGStream({ quality: 1 });
     stream.pipe(out);
     out.on('finish', () => console.log('The composite image was saved successfully.'));
