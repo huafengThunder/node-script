@@ -1,0 +1,28 @@
+{
+  "name": "script",
+  "version": "1.0.0",
+  "description": "集成一些node基本工具",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "merge-img": "node canvas/merge.js",
+    "translate-img": "node canvas/merge.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huafengThunder/node-script.git"
+  },
+  "keywords": [
+    "node",
+    "script"
+  ],
+  "author": "lhf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huafengThunder/node-script/issues"
+  },
+  "homepage": "https://github.com/huafengThunder/node-script#readme",
+  "volta": {
+    "node": "16.15.0"
+  }
+}

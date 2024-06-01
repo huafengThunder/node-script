@@ -1,0 +1,6 @@
+node_modules
+# dist
+canvas/merge 
+canvas/merge-res 
+canvas/translate
+canvas/translate-res 
